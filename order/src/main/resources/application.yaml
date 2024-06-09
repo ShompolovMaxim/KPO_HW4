@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    openfeign:
+      client:
+        config:
+          authorizationClient:
+            url: http://authorization:8080/user
